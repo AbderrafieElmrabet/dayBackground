@@ -39,7 +39,7 @@ body {
     var(--bush) 0 1.15vmin,
     #fff0 calc(1.15vmin + 1px) 100%
   );
-  --glass: 265deg;
+  --glass: 230deg;
   --luz1: hsl(var(--glass) 60% 50% / 60%);
   --luz2: hsl(var(--glass) 54% 32%);
   --luz3: hsl(var(--glass) 54% 25%);
@@ -57,16 +57,25 @@ body {
 
 .content:before {
   content: "";
-	position: absolute;
-	width: 100vw;
-	height: 100%;
-	background: linear-gradient(180deg, #000, #080212, #341c5e, #50587e, #0079d9, #39a7ff,  #70c6ed 100%);
-	background-repeat: no-repeat;
-	background-size:  100% 300%;
-	background-position: 0% 10%;
-	transform: translateZ(-100vmin);
-	/* transition: all 3s var(--cbz) 0s; */
-	/* animation: start-bg 3s var(--cbz) 0s 1; */
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #080212,
+    #341c5e,
+    #50587e,
+    #0079d9,
+    #39a7ff,
+    #70c6ed 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 300%;
+  background-position: 0% 10%;
+  transform: translateZ(-100vmin);
+  /* transition: all 3s var(--cbz) 0s; */
+  /* animation: start-bg 3s var(--cbz) 0s 1; */
 }
 
 /* .content:after {
@@ -405,8 +414,7 @@ input#day-night:checked ~ .content:before {
   width: calc(100% - 1vmin);
   height: calc(100% - 1vmin);
   position: absolute;
-  background: repeating-linear-gradient(180deg, #000, #0a0d29, #6A0D83
-cc);
+  background: repeating-linear-gradient(180deg, #000, #0a0d29, #6a0d83 cc);
   margin: 0.5vmin;
   background-size: 100% 25%;
 }
@@ -430,8 +438,7 @@ span {
   height: 30%;
   top: -1px;
   left: -1px;
-  background: repeating-linear-gradient(180deg, black, #6A0D83
-);
+  background: repeating-linear-gradient(180deg, black, #6a0d83);
   background-size: 100% 0.35vmin;
   box-shadow: 0.01vmin 0.75vmin 0.15vmin 0.125vmin #0005 inset;
 }
@@ -450,8 +457,7 @@ span {
   background: repeating-linear-gradient(180deg, #101010, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 100% 0.365vmin, 8vmin 100%;
@@ -483,8 +489,7 @@ span {
   left: -1px;
   box-shadow: none;
   box-shadow: 0vmin 0.65vmin 0.25vmin 0.25vmin #0006 inset;
-  background-color: #6A0D83
-;
+  background-color: #6a0d83;
 }
 
 /* F 3 */
@@ -506,8 +511,7 @@ span {
   width: 60%;
   height: 100%;
   left: 40%;
-  --luz1: #6A0D83
-;
+  --luz1: #6a0d83;
   --lines-front: repeating-linear-gradient(
     90deg,
     var(--luz1) 0% calc(100% - 0.275vmin),
@@ -639,8 +643,7 @@ span {
   background: repeating-linear-gradient(90deg, #101010, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 0.25vmin 100%, 8vmin 100%;
@@ -652,8 +655,7 @@ span {
   background: repeating-linear-gradient(90deg, #101010, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 0.25vmin 100%, 8vmin 100%;
@@ -765,8 +767,7 @@ span {
   background: repeating-linear-gradient(90deg, #1d1e26, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 2.5vmin 100%, 33vmin 100%;
@@ -862,8 +863,7 @@ span {
   background: repeating-linear-gradient(90deg, #1d1e26, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 1.85vmin 100%, 33vmin 100%;
@@ -879,8 +879,7 @@ span {
   background: repeating-linear-gradient(90deg, #101010, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 2.55vmin 100%, 33vmin 100%;
@@ -893,8 +892,7 @@ span {
   background: repeating-linear-gradient(90deg, #1d1e26, transparent),
     repeating-linear-gradient(
       90deg,
-      #6A0D83
- 0 calc(100% - 0.25vmin),
+      #6a0d83 0 calc(100% - 0.25vmin),
       var(--frame) calc(100% - 0.25vmin) 100%
     );
   background-size: 1.85vmin 100%, 33vmin 100%;
@@ -1162,8 +1160,7 @@ i.cactus:after {
   left: 90%;
   transform: rotateY(60deg) rotate(-1deg);
   border-radius: 0% 100%;
-  filter: drop-shadow(-2px 1px 0px #6A0D83
-cc);
+  filter: drop-shadow(-2px 1px 0px #6a0d83 cc);
 }
 
 /*** CACTUS 2 ***/
@@ -1482,5 +1479,5 @@ input#day-night:checked ~ .content .clouds {
 
 input#day-night:checked ~ .content {
   transition: --glass 3s;
-  --glass: 200deg;
+  --glass: 265deg;
 }
